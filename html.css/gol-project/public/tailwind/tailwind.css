@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    *{
+        direction: rtl;
+        font-family:var(--font-family);
+        
+    }
+   
+   .mainBG{
+    background-image: url(../image/bg-main.png);
+   }
+   .sponsors__item{
+    background-image: url(../image/facebook-golestan.png);
+   }
+   .sponsors__item2{
+    background-image: url(../image/aparat-golestan.png);
+   }.sponsors__item3{
+    background-image: url(../image/instagram-golestan.png);
+   }.sponsors__item4{
+    background-image: url(../image/telegram-golestan.png);
+   }.sponsors__item5{
+    background-image: url(../image/linkdin-golestan.png);
+   }.sponsors__item6{
+    background-image: url(../image/icon6-golestan.png);
+   }
+   .footer__bottum{
+    background-image: url(../image/footerBG--golestan.png);
+   }
+}
+:root{
+    --bgcolor:#272727;
+}
+:root{
+    --golcolor:#ff0000;
+}
+:root{
+    --font-color:rgb(129, 133, 136);
+}
+:root{
+    --font-family:IranSans;
+}
+@font-face {
+    font-family: IranSans;
+    src: url(../fonts/IRANSans.eot);
+    src: url(../fonts/IRANSans.ttf);
+    src: url(../fonts/IRANSans.woff);
+    src: url(../fonts/IRANSans.woff2);
+}
+

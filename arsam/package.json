@@ -1,0 +1,18 @@
+{
+  "name": "arsam",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sass": "node-sass --watch ./public/scss/main.scss -o ./public/css/  -r"
+  },
+  "devDependencies": {
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
